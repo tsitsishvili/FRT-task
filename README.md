@@ -12,14 +12,14 @@
 
 ## Usage
 
-- Get Binary Questions /api/v1/binaryquestions
-- Get Multi Choice Questions /api/v1/multichoicequestions
+- Get Binary Questions. method GET /api/v1/binaryquestions
+- Get Multi Choice Questions. method GET /api/v1/multichoicequestions
 
-- Check Binary Question Answer /api/v1/checkbinaryanswer
-- Check Multi Choice Question Answer /api/v1/checkmultichoicesanswer
+- Check Binary Question Answer. method POST /api/v1/checkbinaryanswer  with data [{"QuestionId":integer,"AnswerId":integer}]
+- Check Multi Choice Question Answer. method POST /api/v1/checkmultichoicesanswer  with data [{"QuestionId":integer,"AnswerId":integer}]
 
-- Save Binary Questions Statistics /api/v1/savebinarystatistics
-- Save Multi Choice Questions Statistics /api/v1/savemultichoicestatistics
+- Save Binary Questions Statistics. method POST /api/v1/savebinarystatistics with data [{"Answers":"[{"QuestionId":integer,"AnswerId":integer},{...}...]}]"}]
+- Save Multi Choice Questions Statistics. method POST /api/v1/savemultichoicestatistics with data [{"Answers":"[{"QuestionId":integer,"AnswerId":integer},{...}...]}]"}]
 
-- Get Binary Questions Statistics /api/v1/binarystatistics
-- Get Multi Choice Questions Statistics /api/v1/multichoicetistics
+- Get Binary Questions Statistics. method GET  /api/v1/binarystatistics
+- Get Multi Choice Questions Statistics. method GET  /api/v1/multichoicetistics
