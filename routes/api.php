@@ -17,7 +17,7 @@ Route::group(['prefix' => 'v1'], function () {
     Route::get('/binaryquestions', [QuestionsController::class, 'GetBinaryQuestions']);
     Route::get('/multichoicequestions', [QuestionsController::class, 'GetMultiChoiceQuestions']);
     Route::get('/binarystatistics', [QuestionsController::class, 'GetBinaryStatistics']);
-    Route::get('/multichoicetistics', [QuestionsController::class, 'GetMultiChoiceStatistics']);
+    Route::get('/multichoicestatistics', [QuestionsController::class, 'GetMultiChoiceStatistics']);
     Route::post('/checkbinaryanswer', [QuestionsController::class, 'CheckBinaryAnswer']);
     Route::post('/checkmultichoicesanswer', [QuestionsController::class, 'CheckMultiChoiceAnswer']);
     Route::post('/savebinarystatistics', [QuestionsController::class, 'SaveBinaryStatistics']);

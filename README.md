@@ -22,4 +22,4 @@
 - Save Multi Choice Questions Statistics. method POST /api/v1/savemultichoicestatistics with data [{"Answers":"[{"QuestionId":integer,"AnswerId":integer},{...}...]}]"}]
 
 - Get Binary Questions Statistics. method GET  /api/v1/binarystatistics
-- Get Multi Choice Questions Statistics. method GET  /api/v1/multichoicetistics
+- Get Multi Choice Questions Statistics. method GET  /api/v1/multichoicestatistics
